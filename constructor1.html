@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor</title>
+</head>
+<body>
+
+    <script>
+
+        class student{
+
+            constructor(){
+
+                var name;
+                console.log("Constructor function")
+            }
+
+            hello(){
+                console.log("Hello " + this.name)
+            }
+
+        }
+
+        const a=new student();
+
+        a.name="Krishna Zaveri";
+        a.hello();
+
+
+    </script>
+    
+</body>
+</html>
